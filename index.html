@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hawi Girma | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button></li>
+                </ul>
+                <a href="#" onclick="openMenu()"><i class="fa-solid fa-bars"></i></a>
+            </nav>
+            <div class="main-header-content">
+                <p class="role-text">Web Developer | Software Engineer</p>
+                <h1>Hi, I'm <span>Hawi</span> Girma</h1>
+                <p class="tagline">I build fast websites and powerful applications.</p>
+                <a href="#contact" class="cta-button pulse-effect">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <figure>
+                            <img src="proj/background.png.jpg.png" alt="Hawi Girma Profile Image" />
+                            <figcaption class="sr-only">Hawi Girma, 4th Year Software Engineering Student</figcaption>
+                        </figure>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am a front-end developer with a strong foundation in Python, Java, and C++. Currently pursuing a
+                            Bachelor’s degree in software engineering at Adama Science and Technology University. Certified in digital
+                            literacy and programming fundamentals from Ethio Coders, Udacity, and Dereja.com. Actively engaged in
+                            problem-solving on platforms like Codeforces and LeetCode.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="openTab('skill')">Skill</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skill">
+                            <ul>
+                                <li><span>Web Development</span><br />Designing web projects</li>
+                                <li><span>Front-End</span><br />Building user interfaces</li>
+                                <li><span>App Development</span><br />Creating Android & iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>2024</span><br />Digital Literacy Training (Dereja.com)</li>
+                                <li><span>2024</span><br />Programming Fundamentals (Udacity)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2024</span><br />Data Analysis (Udacity)</li>
+                                <li><span>2024</span><br />Android Development (Udacity)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div><i class="fa-solid fa-code"></i><h2>Web Development</h2><p>I build responsive websites using HTML, CSS, and JavaScript.</p></div>
+                    <div><i class="fa-solid fa-crop-simple"></i><h2>Front-End Development</h2><p>Creating visually appealing and user-friendly interfaces.</p></div>
+                    <div><i class="fa-solid fa-mobile"></i><h2>App Development</h2><p>Developing mobile apps for Android & iOS platforms.</p></div>
+
+                    <div><i class="fa-solid fa-diagram-project"></i><h2>System Architecture</h2><p>Designing scalable software systems.</p></div>
+                    <div><i class="fa-solid fa-paintbrush"></i><h2>UI/UX Design</h2><p>Designing intuitive interfaces with Figma & Adobe XD.</p></div>
+                    <div><i class="fa-solid fa-book"></i><h2>Documentation</h2><p>Creating user manuals, API docs, and guides.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <figure class="work"><img src="proj/chat bot.png.jpg" alt="Project: Chatbot Websites" /><figcaption class="layer"><h3>Chatbot Websites</h3><p>The websites are connected to the cloud and respond to users.</p><a href="https://github.com/hawi3075/chatbot/tree/master" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Project</a></figcaption></figure>
+                    <figure class="work"><img src="proj/work2.png.jpg.jpg" alt="Project: Restaurant Order System" /><figcaption class="layer"><h3>Restaurant Order System</h3><p>The website helps modify the delivery system.</p><a href="https://github.com/hawi3075/resturant-order-project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Project</a></figcaption></figure>
+                    <figure class="work"><img src="proj/proj4.png" alt="Project: astu-performance-evaluation System" /> <figcaption class="layer"><h3>astu-performance-evaluation System</h3><p>Helps employee manage their performance .</p><a href="https://github.com/hawi3075/astu-performance-evaluation" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project </a></figcaption></figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="skills-wrapper">
+                    <div class="skills-icons">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="60" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="60" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="60" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="60" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="60" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" />
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="60" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="60" />
+
+                    <div class="skills-list">
+                        <p><strong>Front-End:</strong> HTML, CSS, JavaScript, React</p>
+                        <p><strong>Back-End:</strong> Node.js, Express, Python, </p>
+                        <p><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</p>
+                        <p><strong>Tools & Platforms:</strong> Git,GitHub</p>
+                        
+                    </div>
+                </div>
+                <div class="skill"><p>HTML</p><div class="bar"><div class="fill" style="width: 90%"></div></div></div>
+                <div class="skill"><p>CSS</p><div class="bar"><div class="fill" style="width: 85%"></div></div></div>
+                <div class="skill"><p>JavaScript</p><div class="bar"><div class="fill" style="width: 75%"></div></div></div>
+                <div class="skill"><p>React</p><div class="bar"><div class="fill" style="width: 70%"></div></div></div>
+                <div class="skill"><p>Node.js</p><div class="bar"><div class="fill" style="width: 65%"></div></div></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="contact-row">
+                    <div class="contact-list">
+                        <p><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> <a href="tel:+251921439372">0921439372</a></p>
+                        <p><i class="fa-brands fa-telegram"></i> <strong>Telegram:</strong> <a href="https://t.me/ha_sware">@ha_sware</a></p>
+                        <p><i class="fa-brands fa-instagram"></i> <strong>Instagram:</strong> <a href="https://www.instagram.com/hawi girma">hawi girma</a></p>
+                        <p><i class="fa-brands fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/hawi3075">github.com/hawi3075</a></p>
+                        <p><i class="fa-brands fa-whatsapp"></i> <strong>WhatsApp:</strong> Hawi Girma</p>
+                    </div>
+                    <form class="contact-form">
+                        <label for="name" class="sr-only">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                        
+                        <label for="email" class="sr-only">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                        
+                        <label for="phone" class="sr-only">Your Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone" required />
+                        
+                        <label for="subject" class="sr-only">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+                        
+                        <label for="message" class="sr-only">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright © 2025 Hawi Girma. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(tabname) {
+            let tablinks = document.getElementsByClassName("tab-links");
+            let tabcontents = document.getElementsByClassName("tab-content");
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme) {
+            body.classList.add(currentTheme);
+            themeToggle.textContent = currentTheme === 'dark-theme' ? '☀️' : '🌙';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+
+            let theme = 'light-theme';
+            if (body.classList.contains('dark-theme')) {
+                theme = 'dark-theme';
+                themeToggle.textContent = '☀️';
+            } else {
+                themeToggle.textContent = '🌙';
+            }
+            localStorage.setItem('theme', theme);
+        });
+
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openMenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sidemenu.style.right = "-200px";
+        }
+        
+        sidemenu.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 800) {
+                    closeMenu(); 
+                }
+            });
+        });
+    </script>
+</body>
+</html>
