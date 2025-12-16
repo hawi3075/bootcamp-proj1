@@ -34,3 +34,12 @@ This section shows the visual content of the main sections of the website in bot
 
 #### 👤 About Section (Light)
 ![Light mode view of the section detailing skills, experience, and professional background](proj/about-light.png)
+# 🚀 Developer Portfolio
+
+**[✨ View Live Site Here! (Click to Deploy Link) ✨](https://hawi3075.github.io/bootcamp-proj1/)**
+
+## ✨ Future Improvements
+Potential future enhancements for this portfolio include:
+* Integrating a backend service (e.g., Node.js/Express) to handle contact form submissions instead of relying on external mail links.
+* Implementing animations or parallax scrolling to enhance the visual appeal and user engagement.
+* Adding case study pages for each project to provide detailed documentation on problem-solving and technical challenges.
