@@ -15,3 +15,22 @@ Potential future enhancements for this portfolio include:
 * Integrating a backend service (e.g., Node.js/Express) to handle contact form submissions instead of relying on external mail links.
 * Implementing animations or parallax scrolling to enhance the visual appeal and user engagement.
 * Adding case study pages for each project to provide detailed documentation on problem-solving and technical challenges.
+## 📸 Preview
+
+This section shows the visual content of the main sections of the website in both Dark and Light themes.
+
+### 🌙 Dark Mode Views
+
+#### 🏠 Home Section (Dark)
+![Dark mode view of the main introductory section of the portfolio](proj/Screenshot 1.png)
+
+#### 👤 About Section (Dark)
+![Dark mode view of the section detailing skills, experience, and professional background](proj/Screenshot 2.png)
+
+### ☀️ Light Mode Views
+
+#### 🏠 Home Section (Light)
+![Light mode view of the main introductory section of the portfolio](proj/Screenshot L1.png)
+
+#### 👤 About Section (Light)
+![Light mode view of the section detailing skills, experience, and professional background](proj/Screenshot L2.png)
