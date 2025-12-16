@@ -22,15 +22,15 @@ This section shows the visual content of the main sections of the website in bot
 ### 🌙 Dark Mode Views
 
 #### 🏠 Home Section (Dark)
-![Dark mode view of the main introductory section of the portfolio](proj/Screenshot 1.png)
+![Dark mode view of the main introductory section of the portfolio](proj/home-dark.png)
 
 #### 👤 About Section (Dark)
-![Dark mode view of the section detailing skills, experience, and professional background](proj/Screenshot 2.png)
+![Dark mode view of the section detailing skills, experience, and professional background](proj/about-dark.png)
 
 ### ☀️ Light Mode Views
 
 #### 🏠 Home Section (Light)
-![Light mode view of the main introductory section of the portfolio](proj/Screenshot L1.png)
+![Light mode view of the main introductory section of the portfolio](proj/home-light.png)
 
 #### 👤 About Section (Light)
-![Light mode view of the section detailing skills, experience, and professional background](proj/Screenshot L2.png)
+![Light mode view of the section detailing skills, experience, and professional background](proj/about-light.png)
